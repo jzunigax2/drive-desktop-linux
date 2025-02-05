@@ -1,6 +1,6 @@
 {
   "name": "internxt",
-  "version": "2.4.2",
+  "version": "2.4.3",
   "author": "Internxt <hello@internxt.com>",
   "description": "Internxt Drive client UI",
   "license": "AGPL-3.0",
@@ -120,7 +120,9 @@
       "./src/apps/nautilus-extension/internxt-virtual-drive.py"
     ],
     "publish": {
-      "provider": "github"
+      "provider": "github",
+      "owner": "jzunigax2",
+      "repo": "drive-desktop-linux"
     }
   },
   "jest": {
